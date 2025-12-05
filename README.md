@@ -17,9 +17,12 @@ All models share:
 
 - The same **24-D input features** (3 operating settings + 21 sensors)
 - The same **sliding-window preprocessing** (window length `w = 35, 50`)
-- The same **training hyperparameters** (epochs, batch size, LR, loss)
+- The same **optimizer, batch size, number of epochs, and loss function**  
+  (MSE loss, Adam, batch size = 64, 20 epochs)
 
-Our result show that in this task, LSTM average validation loss (MAE/RMSE/NASA) all perform better than CNN, which show that LSTM can learn better in **degrading trend tasks**.
+
+
+
 
 ---
 
@@ -93,7 +96,7 @@ project_root/
 | FD001, FD003 | Single | Global mean/std |
 | FD002, FD004 | Multiple | K‑Means condition‑wise normalization |
 
-> Matches the instructor’s dataset considerations.
+> Matches the project guideline’s dataset considerations.
 
 ---
 
@@ -123,25 +126,6 @@ project_root/
 
 ---
 
-##  Validation Results  
-
-| Dataset   | Window | **CNN RMSE** | **LSTMRMSE** |                                          
-| --------- | :----: | :----------: | :-----------: |
-| **FD001** |   35   |   15.300544  |   12.829396   | w=35 operating condition              
-| **FD001** |   50   |   13.438353  |   12.719482   | w=50 offer more context, improves predictions       
-| **FD002** |   35   |   17.136366  |   15.869294   | FD002 & 004 performed not as good as 001 &003
-| **FD002** |   50   |   15.390746  |   14.086301   | 
-| **FD003** |   35   |   14.890630  |   13.271042   | 
-| **FD003** |   50   |   13.019991  |   11.646756   | 
-| **FD004** |   35   |   15.726580  |   13.344357   | 
-| **FD004** |   50   |   14.368486  |   13.117378   | 
-
-
- Add:
-- Loss learning curves
-- RMSE/NASA score plots
-
----
 
 ##  Key Insights
 - LSTM better captures degradation progression
