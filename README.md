@@ -33,7 +33,6 @@ Our result show that in this task, LSTM average validation loss (MAE/RMSE/NASA) 
 | `Team_Model_Card.docx` | Model card document |
 | `Test_Result` | contain training and validation curves |
 
-> For EE541 requirement, dataset and trained checkpoints must NOT be pushed to GitHub.
 
 ---
 
