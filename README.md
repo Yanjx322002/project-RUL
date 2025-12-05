@@ -94,7 +94,7 @@ project_root/
 | FD001, FD003 | Single | Global mean/std |
 | FD002, FD004 | Multiple | K‑Means condition‑wise normalization |
 
-> Matches the project guideline’s dataset considerations.
+
 
 ---
 
