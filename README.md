@@ -30,8 +30,8 @@ All models share:
 | File/Folder | Description |
 |---|---|
 | `cnn.ipynb` | CNN training & evaluation |
-| `lstm.ipynb_final` | LSTM baseline training & evaluation |
-| `lstm+cnn_final.ipynb`| LSTM baseline + CNN-LSTM hybrid |
+| `lstm.ipynb` | LSTM baseline training & evaluation |
+| `lstm+cnn.ipynb`| LSTM baseline + CNN-LSTM hybrid |
 | `README.md` | Documentation file (this file) |
 | `Team_Model_Card.docx` | Model card document |
 | `Test_Result` | contain training and validation curves |
