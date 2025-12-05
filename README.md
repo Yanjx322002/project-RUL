@@ -1,6 +1,6 @@
 
 # Remaining Useful Life Prediction for Turbofan Engines  
-### Using CNN and LSTM Models  
+### Using CNN and LSTM Models and CNN+LSTM Models  
 **Team: Cheng-Hung Chung & Jiaxuan Yan**
 
 ---
@@ -142,10 +142,11 @@ project_root/
 ---
 
 ##  Reproducibility Support
-- All hyperparameters fixed and logged
+- Main hyperparameters are clearly specified in each notebook.
 - Random seed set to ensure consistent runs
 - Training procedures fully contained in notebooks
 - Model checkpoint saving included
+
 
 ---
 
