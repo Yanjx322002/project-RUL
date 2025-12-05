@@ -158,7 +158,7 @@ project_root/
 
 ---
 
-## 📎 References
+##  References
 - NASA CMAPSS Turbofan Engine Simulator Dataset
 - EE541 Final Project Guidelines
 
