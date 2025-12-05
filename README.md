@@ -120,7 +120,7 @@ project_root/
 
 - **CNN baseline**: learning rate = **1e-3**
 - **LSTM baseline**: learning rate = **1e-3**
-- **CNN-LSTM hybrid**: learning rate = **1e-4**
+- **CNN-LSTM hybrid**: learning rate = **3e-4**
 
 ---
 
