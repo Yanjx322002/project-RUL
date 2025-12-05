@@ -151,7 +151,7 @@ project_root/
 ##  Team Contribution
 | Member | Contribution |
 |---|---|
-| Cheng‑Hung Chung | LSTM pipeline + LSTM+CNN pipeline+condition‑aware preprocessing + training evaluation|
+| Cheng‑Hung Chung | LSTM pipeline model + LSTM+CNN pipeline model+ training evaluation|
 | Jiaxuan Yan | CNN model + training evaluation + visualization |
 
 ---
