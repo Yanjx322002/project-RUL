@@ -33,8 +33,6 @@ All models share:
 | `lstm.ipynb` | LSTM baseline training & evaluation |
 | `lstm+cnn.ipynb`| LSTM baseline + CNN-LSTM hybrid |
 | `README.md` | Documentation file (this file) |
-| `Team_Model_Card.docx` | Model card document |
-| `Test_Result` | contain training and validation curves |
 
 
 ---
